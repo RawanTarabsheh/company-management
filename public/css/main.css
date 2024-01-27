@@ -1,0 +1,115 @@
+form {
+    margin-top: 20px;
+    padding:0px 120px 0px 120px ;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.reviews{
+    padding:0px 120px 0px 120px ;
+
+}
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.review-list {
+    margin-top: 10px;
+}
+
+.review-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+
+.custom-pagination {
+    margin-top: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+.page-link {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.page-link:hover {
+    background-color: #e9ecef;
+}
+
+.card-body {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    text-decoration: none!important;
+    transition: color 0.3s ease;
+    margin: 20px;
+    color: black!important;
+    font-weight: 500;
+padding: 8px;
+background-color: gray;
+}
+
+.tab:hover {
+    color: #0056b3!important;
+}
+
+.card-body > div {
+    margin-top: 15px; /
+}
